@@ -1,0 +1,36 @@
+################################################################################
+# download-commander-server config file                                        # 
+# The properties in this file can be altered to meet your needs.               #
+#                                                                              #
+#                                                                              #
+#                                                                              #
+#                                                                              #
+#                   DO NOT CHANGE THE ORDER OF THIS FILE                       #
+#                                                                              # #                                                                              #
+# This is a comment in this config file                                        #
+#                                                                              #
+################################################################################
+#
+# This is the directory the files will be saved to.
+# Linux
+#FILE_STORAGE_DIR: /var/www/html/downloads/
+FILE_STORAGE_DIR: /tmp/t/
+#
+# XML Settings:
+#Note: The XML file is a back up for if the server carches or closes all the XML
+#      file will load all the saved file details and links to load back into the
+#      server when restarted.
+#SAVE_XML_LOCATION: /var/www/html/downloads.xml
+SAVE_XML_LOCATION: /tmp/t/downloads.xml
+#
+# Markdown Settings:
+SAVE_MARKDOWN_FILE: YES
+#SAVE_MARKDOWN_FILE: NO
+SAVE_MARKDOWN_LOCATION: /var/www/html/downloads.md
+TEMP_MARKDOWN_LOCATION: /tmp/downloads.md
+#
+# HTML Settings:
+SAVE_HTML_FILE: YES
+#SAVE_HTML_FILE: NO
+SAVE_HTML_LOCATION: /var/www/html/downloads.html
+TEMP_HTML_LOCATION: /tmp/downloads.html
